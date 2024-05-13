@@ -15,7 +15,7 @@ function initMap(){
         {lat: 40.754932, lng: -73.984016}
     ];
     var markers = locations.map(function(location, i){
-        return new google.maps.Marker.AdvancedMarkerElement({
+        return new google.maps.Marker.AdcancedMarkerElement({
             position: location,
             label: labels[i % labels.length]
         });
